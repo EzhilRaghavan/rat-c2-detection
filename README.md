@@ -62,10 +62,10 @@ Uses Scapy for packet capture and packet analysis
 # Usage
 
 # PCAP Analysis
-python3 main.py pcap sample.pcap  
+python3 main.py pcap sample.pcap(pcap file )  
 
 # Live Traffic Monitoring
-sudo python3 main.py live eth0  
+sudo python3 main.py live eth0 (sudo must be used in case of no root access) 
 
 # Output
 Displays detection verdict in console  
@@ -89,4 +89,5 @@ SOC Analyst
 Detection Engineer  
 Network Security Analyst  
 Cybersecurity Researcher  
+
 
