@@ -31,22 +31,22 @@ Multi-indicator behavioral correlation
 
 # Project Structure
 rat-c2-detection/  
-├── main.py                     Entry point and execution controller  
+├── main.py                      
 ├── engine/  
-│   └── engine.py               Core detection orchestration engine  
+│   └── engine.py                
 ├── capture/  
-│   ├── pcap_ingest.py          PCAP file ingestion logic  
-│   └── live_capture.py         Live network packet capture module  
+│   ├── pcap_ingest.py          
+│   └── live_capture.py          
 ├── parsers/  
-│   ├── tcp_parser.py           TCP traffic parsing  
-│   ├── dns_parser.py           DNS traffic parsing  
-│   └── http_parser.py          HTTP traffic parsing  
+│   ├── tcp_parser.py           
+│   ├── dns_parser.py             
+│   └── http_parser.py          
 ├── detection/  
-│   ├── beaconing.py            Beaconing detection logic  
-│   ├── dns_tunnel.py           DNS tunneling detection logic  
-│   └── c2_logic.py             Indicator correlation and verdict logic  
+│   ├── beaconing.py             
+│   ├── dns_tunnel.py           
+│   └── c2_logic.py             
 └── output/  
-    └── alerts.json             Detection results and alerts  
+    └── alerts.json             
 
 # Execution Flow
 Select input source between PCAP file and live interface  
@@ -89,3 +89,4 @@ SOC Analyst
 Detection Engineer  
 Network Security Analyst  
 Cybersecurity Researcher  
+
